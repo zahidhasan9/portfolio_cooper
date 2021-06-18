@@ -18,12 +18,9 @@ import Nav from "./component/Nav-bar";
 
 const App=()=> {
   return (
-    <>
-      <Router>
-        <Route exact path="/" component={Home2} />
-        <Route path="/Contact" component={Contact} />
-      </Router>
-    </>
+    
+      <div>Hello</div>
+    
   );
 };
 
