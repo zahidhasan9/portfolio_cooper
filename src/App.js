@@ -1,5 +1,6 @@
 import React , { useState } from 'react'
 import {BrowserRouter as Router, Route ,Switch} from "react-router-dom";
+
 import * as $ from "jquery"
 // import './App.css';
 // import './component/all csss/style.css'
@@ -18,9 +19,10 @@ import Nav from "./component/Nav-bar";
 
 const App=()=> {
   return (
-    
-      <div>Hello</div>
-    
+    <Router basename={process.env.PUBLIC_URL}>
+        <Route exact path="/" component={Home2} />
+        <Route path="/Contact" component={Contact} />
+      </Router>
   );
 };
 
