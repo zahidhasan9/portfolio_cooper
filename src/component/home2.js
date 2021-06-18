@@ -9,7 +9,7 @@ import './all csss/plugins.css'
 import './all csss/googlefont.css'
 
 import Share from "../Image/share.png";
-
+import Contact from "./Contact";
  const Home2 = () => {
 
   const [click, setClick] = useState(false)
@@ -22,20 +22,6 @@ import Share from "../Image/share.png";
   
  return (
     < >
-     
-      
-      
-      
-      
-      
-      
-     
-      
-      
-      
-     
-  
-     
       {/*================= loader ================*/}
       <div className="loader-holder">
         <div className="loader-inner loader-vis">
@@ -106,9 +92,7 @@ import Share from "../Image/share.png";
                     </li>
 
                   <li > 
-                    <NavLink to="/Contact">
-                      Contact
-                    </NavLink>
+                      <a href="/Contact">Contact</a>
                   </li>
                   
                   <li>
@@ -1407,6 +1391,7 @@ import Share from "../Image/share.png";
           data-share="['facebook','pinterest','googleplus','twitter','linkedin']"
         />
         {/* Share container  end*/}
+        <Contact></Contact>
       </div>
      
     </>

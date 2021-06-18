@@ -86,7 +86,7 @@ const Contact = () => {
                 <ul className="menu">
                   {/* start main nav */}
                   <li>
-                    <a href="http://localhost:3000/">Home</a>
+                    <a href="/">Home</a>
                      </li>
 
            
